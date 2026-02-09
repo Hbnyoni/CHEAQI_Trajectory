@@ -1,0 +1,28 @@
+[general]
+name=Trajectory Exposure Analysis
+qgisMinimumVersion=3.16
+description=Analyze GPS trajectories with air quality data including time-weighted exposure metrics, indoor/outdoor validation, and dwell time analysis
+version=1.0.0
+author=CHEAQI Research Team
+email=support@cheaqi.org
+
+about=A comprehensive QGIS plugin for spatial trajectory exposure analysis. Supports multiple input formats (Shapefile, GeoPackage, GeoJSON, CSV, KML), calculates time-weighted exposure metrics with dwell time analysis, performs indoor/outdoor validation using building footprints or OSM data, and exports results in various formats including GeoTIFF rasters.
+
+tracker=https://github.com/your-org/trajectory-exposure/issues
+repository=https://github.com/your-org/trajectory-exposure
+tags=trajectory, exposure, air quality, health, GPS, dwell time, temporal analysis
+homepage=https://github.com/your-org/trajectory-exposure
+category=Analysis
+icon=icon.png
+experimental=False
+deprecated=False
+
+changelog=
+    1.0.0 - Initial release
+        - Multi-format input support (Shapefile, GeoPackage, GeoJSON, CSV, KML)
+        - Time-weighted exposure calculations with dwell time
+        - Indoor/outdoor validation
+        - Grid-based spatial analysis
+        - Multiple export formats (GeoPackage, Shapefile, GeoJSON, CSV, GeoTIFF)
+        - OpenStreetMap building integration
+        - Quality assurance metrics
