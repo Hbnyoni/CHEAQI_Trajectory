@@ -289,33 +289,40 @@ Trajectory Exposure Analysis: A QGIS Plugin for Spatiotemporal Air Quality Expos
 Version 1.0.0.
 ```
 
+
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-org/trajectory-exposure/issues)
-- **Documentation**: [Full Documentation](https://github.com/your-org/trajectory-exposure)
-- **Email**: support@cheaqi.org
+- **Issues**: [GitHub Issues](https://github.com/Hbnyoni/CHEAQI_Trajectory/issues)
+- **Documentation**: [Full Documentation](https://github.com/Hbnyoni/CHEAQI_Trajectory)
+- **Email**: hbnyoni@gmail.com /nyonih@staff.msu.ac.zw
 
 ## License
 
-[Your License Here - e.g., MIT, GPL-3.0]
+MIT License - See LICENSE file in repository
 
 ## Changelog
 
 ### Version 1.0.0 (2026-02-09)
 - Initial release
-- Multi-format input support
-- Dwell time calculations
-- Indoor/outdoor validation
+- Multi-format input support (Shapefile, GeoPackage, GeoJSON, CSV, KML)
+- Dwell time calculations with time-weighted exposure metrics
+- Indoor/outdoor validation using building footprints
 - OSM building integration
-- Multiple export formats
-- Raster grid generation
+- Multiple export formats (GeoPackage, Shapefile, GeoJSON, CSV, GeoTIFF)
+- Raster grid generation for PM2.5, NO2, and dwell time
+- Qt6 compatibility for QGIS 3.x
+- Teleport detection and quality assurance
+- Grid-based spatial aggregation
 
 ## Contributors
 
-CHEAQI Research Team
-- [Your Names/Affiliations]
+**CHEAQI Research Team**
+- H.B. Nyoni - Lead Developer
+- [Add other contributors]
 
 ## Acknowledgments
+
+This plugin was developed as part of the CHEAQI  research project focusing on spatiotemporal exposure assessment for maternal and child health studies.
 
 Built using:
 - QGIS Processing Framework
